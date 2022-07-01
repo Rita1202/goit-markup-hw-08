@@ -6,7 +6,6 @@
   @include font(14px, 700, 1.14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--primary-text-color-theme-light);
 }
 
@@ -53,6 +52,12 @@
 
   .about-us__suptitle {
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .about-us__suptitle {
+    text-align: center;
   }
 }
 
